@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PWA
+  description: PWA (TypeScript)
+  annotations:
+    github.com/project-slug: tokyandria001/PWA
+  tags:
+    - typescript
+spec:
+  type: website
+  lifecycle: experimental
+  owner: guests
